@@ -23,9 +23,8 @@ Implements:
 
 ## 📂 Structure
 - `notebooks/` – all Jupyter notebooks
-- `models/` – saved model weights (optional)
-- `plots/` – training graphs, confusion matrices
-- `data/` – sample datasets (if permitted to upload)
+- `data/` – input data (multi-sensors data)
+
 
 ## 🧠 Goal
 Develop standard models for land movement prediction at t+1 based on multi-sensor monitoring data.
