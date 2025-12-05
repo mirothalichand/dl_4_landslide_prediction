@@ -33,16 +33,12 @@ Below is the typical meaning of each feature present in the dataset:
 | `rainfall` | Rainfall intensity (mm/hr) measured by rain gauge sensors |
 | `soil_moisture` | Soil water content; higher values indicate saturation risk |
 | `pore_pressure` | Subsurface pore water pressure (kPa); contributes to slope instability |
-| `acceleration` | IMU-based ground vibration or acceleration readings |
-| `displacement` | Cumulative ground movement from extensometers or tiltmeters |
-| `tilt_angle` | Change in slope angle (degrees) |
+| `acceleration - (x,y,z) axis` | IMU-based ground vibration or acceleration readings |
+| `angular velocity - (x, y, z) axis` | Change in slope angle (degrees) |
 | `temperature` | Ambient or subsurface temperature |
 | `humidity` | Atmospheric humidity percentage |
-| `geophone` | Vibrational energy detected in the soil (proxy for micro-movements) |
-| `strain` | Deformation of slope mass or supporting structures |
-| `water_level` | Groundwater/table level relative to sensors |
 | `pressure` | Atmospheric or sensor housing pressure |
-| `lag_feature` | Any additional engineered feature (moving averages, gradients, etc.) |
+| `time lagged features` | Any additional engineered feature|
 | `movement_class` | {0 = Stable, 1 = Moderate movement, 2 = Critical movement} |
 | **`movement_class_t+1`** | Target label: {0 = Stable, 1 = Moderate movement, 2 = Critical movement} |
 
