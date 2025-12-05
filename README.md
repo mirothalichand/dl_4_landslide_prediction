@@ -34,3 +34,27 @@ Develop standard models for land movement prediction at t+1 based on multi-senso
 - EarlyStopping, ModelCheckpoint
 - Custom thresholding
 
+
+---
+
+## 🧪 Example Workflow
+
+1. Load dataset using `pandas.read_csv()`
+2. Drop missing values
+3. Scale features using `StandardScaler`
+4. Create `(X, y)` arrays using the provided DataEngine class
+5. Split into:
+   - Training set  
+   - Validation set  
+   - Holdout test set  
+6. Train one or more models:
+   - LSTM / BiLSTM  
+   - CNN-LSTM  
+   - MLP / CNN  
+7. Evaluate model using accuracy, precision, recall, F1-score, confusion matrix
+8. Apply thresholding for calibration if needed
+
+---
+
+
+
